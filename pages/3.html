@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Meaowsi Website</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('dog.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image file */
+            background-size: cover;
+            color: #333;
+            position: relative;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for readability */
+            color: #fff;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        main h1 {
+            color: #333;
+        }
+        main p {
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+        .portfolio-section {
+            margin-top: 40px;
+        }
+        .portfolio-section h2 {
+            color: #444;
+        }
+        .portfolio-item {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .portfolio-item h3 {
+            margin-top: 0;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for readability */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 class="logo">LOGO</h3>
+        <nav class="nav-links">
+            <a href="website.html">HOME</a>
+            <a href="2.html">VIDEOS</a>
+            <a href="3.html">PORTFOLIO</a>
+            <a href="4.html">BLOG</a>
+            <a href="5.html">CONTACT US</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Portfolio</h1>
+        <p>Welcome to my portfolio page! Here, you'll find a collection of my work and projects. Feel free to browse through and see what I’ve been working on.</p>
+        
+        <!-- Microcontroller Projects Section -->
+        <section class="portfolio-section">
+            <h2>Microcontroller Projects</h2>
+            <div class="portfolio-item">
+                <h3>Smart Home Automation System</h3>
+                <img src="smart-home.jpg" alt="Smart Home Automation System">
+                <p>This project involved designing and implementing a smart home automation system using Arduino. The system allows for remote control of lighting, heating, and security systems via a smartphone app.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Wearable Health Monitor</h3>
+                <img src="health-monitor.jpg" alt="Wearable Health Monitor">
+                <p>Developed a wearable health monitoring device with a microcontroller that tracks vital signs like heart rate and body temperature. Data is sent to a mobile application for real-time health monitoring.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Automated Plant Watering System</h3>
+                <img src="plant-watering.jpg" alt="Automated Plant Watering System">
+                <p>Created an automated plant watering system using a Raspberry Pi and various sensors to monitor soil moisture levels. The system automatically waters plants when needed, ensuring optimal growth conditions.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meaowsi Kingdom. All rights reserved.</p>
+    </footer>
+</body>
+</html>

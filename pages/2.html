@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos - Meaowsi Website</title>
+    <style>
+        /* Include your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('dog.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 24px;
+            margin: 0;
+        }
+        .nav-links a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+            border-radius: 8px;
+        }
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            background: #000;
+            border-radius: 8px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 class="logo">LOGO</h3>
+        <nav class="nav-links">
+            <a href="website.html">HOME</a>
+            <a href="2.html">VIDEOS</a>
+            <a href="3.html">PORTFOLIO</a>
+            <a href="4.html">BLOG</a>
+            <a href="5.html">CONTACT US</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Videos</h1>
+        <p>Content for the videos page.</p>
+        <div class="video-grid">
+            <!-- Add more video containers here -->
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/WtYLPJLs5fy9xg_p" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!-- Add more video containers as needed -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meaowsi Kingdom. All rights reserved.</p>
+    </footer>
+</body>
+</html>
