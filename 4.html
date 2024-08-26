@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Meaowsi Website</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('dog.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your image file */
+            background-size: cover;
+            color: #333;
+            position: relative;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for readability */
+            color: #fff;
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        main h1 {
+            color: #333;
+        }
+        main p {
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+
+        /* Blog Post Styles */
+        .blog-post {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .blog-post h2 {
+            color: #444;
+        }
+        .blog-post img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .blog-post p {
+            margin-top: 10px;
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            float: right;
+            width: 30%;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: #fff;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+        .sidebar h3 {
+            margin-top: 0;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background for readability */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive Layout */
+        @media (max-width: 768px) {
+            .sidebar {
+                float: none;
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3 class="logo">LOGO</h3>
+        <nav class="nav-links">
+            <a href="website.html">HOME</a>
+            <a href="2.html">VIDEOS</a>
+            <a href="3.html">PORTFOLIO</a>
+            <a href="4.html">BLOG</a>
+            <a href="5.html">CONTACT US</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Blog</h1>
+        
+        <!-- Blog Post 1 -->
+        <article class="blog-post">
+            <h2>Understanding Microcontrollers</h2>
+            <p><strong>Published on:</strong> August 10, 2024</p>
+            <img src="microcontroller.jpg" alt="Microcontroller">
+            <p>Microcontrollers are tiny computers embedded in devices to perform specific tasks. They consist of a processor, memory, and input/output peripherals. In this post, we delve into how microcontrollers work, their applications, and why they are integral to modern electronics.</p>
+            <p>Microcontrollers are found in everything from household appliances to automotive systems. Their ability to be programmed for specific functions makes them highly versatile. We will explore various types of microcontrollers, common use cases, and best practices for programming them.</p>
+        </article>
+
+        <!-- Blog Post 2 -->
+        <article class="blog-post">
+            <h2>Top 5 DIY Electronics Projects</h2>
+            <p><strong>Published on:</strong> July 25, 2024</p>
+            <img src="diy-projects.jpg" alt="DIY Electronics Projects">
+            <p>DIY electronics projects are a great way to learn about electronics and have fun at the same time. Here are five exciting projects you can try at home:</p>
+            <ul>
+                <li>Smart Home Automation System</li>
+                <li>Wireless Weather Station</li>
+                <li>Personalized LED Light Show</li>
+                <li>Automated Plant Watering System</li>
+                <li>Bluetooth-Enabled Door Lock</li>
+            </ul>
+            <p>Each project offers a unique challenge and opportunity to learn new skills. Whether you're a beginner or an experienced hobbyist, these projects are sure to inspire you.</p>
+        </article>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">Understanding Microcontrollers</a></li>
+                <li><a href="#">Top 5 DIY Electronics Projects</a></li>
+                <li><a href="#">Introduction to Embedded Systems</a></li>
+                <li><a href="#">How to Get Started with Arduino</a></li>
+                <li><a href="#">The Future of Robotics</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Meaowsi Kingdom. All rights reserved.</p>
+    </footer>
+</body>
+</html>
